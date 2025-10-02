@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Любой заголовок</title>
+    <style>
+        body {
+            color: #f92672;
+            background: #272822; 
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>Моя первая страница</h1>
+    <div class="odd" id="ball">
+        <h2>Мячик</h2>
+        <b>Наша Таня громко плачет:</b> <br>
+        <i>Уронила в речку мячик.</i> <br>
+        -Тише, Танечка, не плачь: <br>
+        <strike>Не утонет в речке мяч.</strike> <br>
+        <i><b>Автор А.Л. Барто</b></i>
+    </div>
+    <div class="even" id="mems">
+        <h2>Весёлые картинки</h2>
+        <img src="img/images.jpg" alt="smiles">
+        <img src="img/images2.jpg" alt="smiles" srcset="">
+    </div>
+    <div class="odd" id="schedule">
+        <h2>Расписание звонков</h2>
+        <ol>
+            <li>08:20 - 09:50</li>
+            <li>10:00 - 11:30</li>
+            <ul style="list-style-type: disc;">
+                <li>Перемена 40 минут</li>
+            </ul>
+            <li>12:10 - 13:40</li>
+            <li>13:50 - 15:20</li>
+            <li>15:30 - 17:00</li>
+            <ul style="list-style-type: disc;">
+                <li>Перемена 20 минут</li>
+            </ul>
+            <li>17:20 - 18:50</li>
+            <li>19:00 - 20:30</li>
+        </ol>
+    </div>
+    <div class="even" id="timetable">
+        <h2>Расписание пар</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td>Номер пары</td>
+                    <td>Название предмета</td>
+                    <td>Аудитория</td>
+                    <td>Преподаватель</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Теория чисел</td>
+                    <td>223/4к</td>
+                    <td>Мерзляков А.С.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Теория чисел</td>
+                    <td>223/4к</td>
+                    <td>Мерзляков А.С.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Параллельное программирование</td>
+                    <td>222/4к</td>
+                    <td>Новиков А.К.</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Финансовая математика</td>
+                    <td>223/4к</td>
+                    <td>Банщикова И.Н.</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Финансовая математика</td>
+                    <td>222/4к</td>
+                    <td>Банщикова И.Н.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="odd" id="diary">
+        <h2>Дневник</h2>
+        <form action="" method="post">
+            <div>
+                <p><label for="fio">Фамилия, имя, отчество</label></p>
+                <input id="fio" type="text" value="Иванцов Данил Игоревич">
+            </div>
+                <p><label for="sex">Пол</label></p>
+                Мужской <input id="sex" name="sex" type="radio" value="М" checked>
+                Женский <input id="sex" name="sex" type="radio" value="Ж">
+            </div>
+            <div>
+                <p><label for="school">Школа</label></p>
+                <input id="school" type="text" value="48">
+            </div>
+            <div>
+                <p><label for="place">Населенный пункт</label></p>
+                <input id="place" type="text" value="Ижевск">
+            </div>
+            <div>
+                <p><label for="class">Класс</label></p>
+                <input id="class" type="text" value="12">
+            </div>
+            <div>
+                <label for="colorObl">Цвет обложки</label>
+                <input id="colorObl" type="color">
+            </div>
+            <div>
+                <label for="beginYear">Год начала учебного года</label>
+                <input id="beginYear" type="number" value="2025">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email">
+            </div>
+            <div>
+                <label for="phone">Телефон</label>
+                <input id="phone" type="phone">
+            </div>
+            <div>
+                <p><input type="submit" value="Выбрать"></p>
+            </div>
+
+        </form>
+    </div>
+    <div class="even" id="accounting">
+        <h2>Бухгалтерия</h2>    
+    </div>
+    <script>
+        console.log('Hello world!');
+    </script>
+
+
+</body>
+</html>
